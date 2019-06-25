@@ -1,0 +1,3249 @@
++1  FF FF FF初始复位地址
+0600BF FB 7B条件取指入口，有中断转0003
+0600BF FB 7B无条件取指入口，屏蔽中断
++1  FE FA F7中断入口地址
++1  FC DE 1F
++1  FA FA 5F
++1  F8 FD 1F
++1  F8 D6 1F
++1  F6 D6 1F
++1  FC D6 1F
++1  5E F8 1F
++1  F8 DE 1F
++1  F8 F6 1F
++1  F8 F6 1F
++1  F8 F6 1F
++1  F8 76 1F
++1  F8 F6 1F
+0012FF 6F 5D
+00CEF8 C6 4FCY=0入口
++1  F8 DE 1FCY=1入口
++1  F8 F6 1F
++1  F8 F6 1F
+00013E F6 0D
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0001F8 CE 6D
+0001F1 CE 4D
++1  DE DE 7B
+0021F8 F9 CF
++1  F8 DE 5F
+002BF8 F6 4F
++1  F8 C6 5F
+0001FA 8E 4D
++1  FF FF FF
+0039F8 FE CF
++1  F8 DE 5F
+0023DE F6 4B
++1  F8 DE 5F
+0023DE CE 4B
++1  F8 C6 DF
+0001FB 8E 4D
+0001F8 CE 2D
+0001F1 CE 0D
++1  DE DE 7B
+0031F8 F9 8F
++1  F8 DE 5F
+00FFF8 F6 4F
++1  F8 C6 1F
+0001FA 8E 0D
+0001FF FF ED
+0001F9 8E 4D
+0001FF FF ED
+0001F9 B6 4D
++1  F8 DE 5F
+00E8F8 F6 4F
+00E9DF DE 4B
+0001F9 96 4D
+0001F8 F6 6DINC AL
+0001F1 F6 4D
++1  DE DE 7BINC CL
+0041F8 F9 CF
++1  F8 DE 5FINC DL
+004BF8 F6 4F
++1  F8 C6 5FINC BL
+0001FA B6 4D
++1  FF FF FFINC AH
+0115F8 FE CF
++1  F8 DE 5FINC CH
+0043DE F6 4B
++1  F8 DE 5FINC DH
+0043DE CE 4B
++1  F8 C6 DFINC BH
+0001FB B6 4D
+0001F8 96 6DDEC AL
+0001F1 D6 4D
++1  DE DE 7BDEC CL
+0051F8 F9 CF
++1  F8 DE 5FDEC DL
+005BF8 F6 4F
++1  F8 C6 5FDEC BL
+0001FA 96 4D
++1  FF FF FFDEC AH
+003FF8 FE CF
++1  F8 DE 5FDEC CH
+0053DE F6 4B
++1  F8 DE 5FDEC DH
+0053DE CE 4B
++1  F8 C6 DFDEC BH
+0001FB 96 4D
++1  F8 DE 5FMOV [SI],AL
+0064F8 F6 4F
++1  DF DE 7BMOV [DI],AL
+0067EC F9 2F
+0063DF F6 4B
+0001FF FF ED
++1  FC C6 3FMOV [BX],AL
+00015F FE 6D
++1  F8 DE 5FMOV [SI],AH
+006CF8 F6 4F
++1  DF DE 7BMOV [DI],AH
+006FEC F9 2F
+006BDF F6 4B
+0001FF FF ED
++1  FC C6 3FMOV [BX],AH
+00015F FE ED
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 F6 5F
++1  F8 76 5F
+00C4F9 F6 4F
++1  F8 F6 5F
++1  F9 76 5F
++1  F8 FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
+00CAF8 76 0F
++1  F9 F6 5F
++1  F8 76 1F
++1  F8 FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
+00FF7F FE DB
++1  F8 76 5F
++1  FA 76 5F
++1  F8 DE 1F
++1  F9 F6 5F
++1  F8 7E 1F
++1  F8 7E 5F
++1  F8 7E 5F
++1  FC 66 1F
+00013E FB 0D
+0001FF FF ED
+0001FF FF ED
++1  E0 CE 1F
++1  F8 DE 1F
++1  F8 CE 5F
++1  F8 76 1F
++1  F8 76 1F
++1  DF FE 5B
++1  E0 C6 1F
++1  FF FF 7F
++1  E8 F9 1F
++1  FA E6 1F
++1  F8 DE 1F
++1  F8 CE 5F
++1  DF D6 5B
++1  E8 F9 1F
+0002FA AE 0D
++1  DF F6 5B
++1  E8 F9 1F
+0001E0 CE 0D
++1  DF D6 5B
++1  FF FF 7F
++1  FA FB 5F
++1  BB FB 5F
++1  B8 EE 1F
++1  E0 CE 1F
++1  F8 DE 1F
++1  F8 CE 5F
++1  F8 76 1F
++1  F8 76 1F
++1  DF FE 5B
++1  E0 C6 1F
++1  FF FF 7F
++1  EA F9 1F
++1  FA E6 1F
++1  F8 DE 1F
++1  F8 CE 5F
++1  DF D6 5B
++1  E8 F9 1F
+0002F8 AE 0D
+0033DE F6 4B
+010EF9 DE 0F八位偏移量运算
++1  F9 DE 1F-128偏移量运算
++1  F8 CE 5F
++1  F8 F6 5F
++1  FA FE 1F
++1  F8 F8 1F
+00013E 6E 0D
++1  FB FB DFCALL 调用
++1  A8 D6 1F
++1  F6 D6 1F
++1  FC D6 1F
++1  5E F8 1F
++1  F8 C6 1F
+0110FF 57 1D
++1  FA F8 1F+127偏移量运算
+00013E 66 0D
+010FFA F8 8FCALL 全位移量(正偏址运算)
++1  F8 CE 1FCALL 全位移量(负偏址运算)
+0105FA F6 1F
++1  F8 F8 9F
+00013E 6E 0D
+0001F9 B6 4D
+07D6FF FF EFJNC/JNZ (CY=0 或 Z=0)
+0001BF FF EDJNC/JNZ (CY=1 或 Z=1)
+0001BF FF EDJC/JZ (CY=0 或 Z=0)
+07D6FF FF EFJC/JZ (CY=1 或 Z=1)
++1  DE F6 5B
+0001F0 F9 CD
++1  DE F6 5B
++1  F8 F9 DF
++1  FA FB DF
+0001B1 6E 4D
++1  F8 F6 1FRET 返回
++1  F6 F6 1F
+00013F FB 0D
+0001FF FF ED
+010FFA F8 0FJMP 全位移量(正偏址运算)
+0112F8 CE 0FJMP 全位移量(负偏址运算)
++1  BF FF DFJMP 延续
+0124FF 57 0D
++1  DE F6 5BOUT DX,AL
++1  FC F9 BF
+017FF2 FE 6F
++1  DE F6 5BOUT DX,AX
++1  FC F9 BF
+017FF2 FE 2F
++1  DE F6 5BIN AL,DX
++1  FC F9 BF
+017FF8 FA 6F
++1  DE F6 5BIN AX,DX
++1  FC F9 BF
+017FF8 FA 2F
+0001F4 FE 6DOUT 0/1,AL 延续
+0001F5 FE 6D
+0001F8 FC 6DIN AL,0/1 延续
+0001F8 FC ED
++1  9F DE 5BLEA DI,DATA 延续
+0001E0 FE 0D
++1  DE F6 5BMOV DX,DATA16 延续
++1  F8 FB 5F
++1  B9 FB 5F
+0001B1 FE 0D
++1  DF F6 5BMOV SI,DATA 延续
++1  F8 FB 5F
++1  B9 FB 5F
+0001A0 FE 0D
++1  F8 76 1FMOV [SI/DI/BX],AL/AH 延续
++1  F8 76 1F
++1  F8 FB 5F
++1  B8 76 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 1F
++1  F8 76 1F
+00FF7F FE DB
+0155F8 DE 4FMOV [SI],AX
+0152FF 5F 5DMOV [DI/BX],AX 延续
+015DF8 DE 4FMOV [SI],DATA
+0158FF 5F 5DMOV [DI/BX],DATA 延续
+0157DF DE 6BMOV [DI],AX
++1  FC C6 3FMOV [BX],AX
+00015F FE 2D
++1  F8 F6 5F
++1  DF F6 5B
+0154EC F9 2F
+015FDF DE 6BMOV [DI],DATA
++1  FC C6 3FMOV [BX],DATA
++1  F8 FB 5F
++1  B9 FB 5F
+077B5F FE 0F
++1  F8 F6 5F
++1  DF F6 5B
+015AEC F9 2F
++1  F8 F6 1F字节寄存器移位
++1  F8 F6 1F
++1  F8 76 1F
++1  F8 F6 1F
++1  F8 76 1F
++1  F8 76 1F
++1  F9 FE 5F
++1  F8 FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
+04FF7F FE DB
++1  F8 F6 1F字寄存器移位
++1  F8 F6 1F
++1  F8 76 1F
++1  F8 F6 1F
++1  F8 76 1F
++1  F8 76 1F
+0166F8 F6 0F
++1  F9 CE 5F
++1  F8 F9 DF
++1  F8 E6 5F
++1  FA FE DF
+0002F1 EE 4D
++1  F9 CE 5F
++1  E8 F9 5F
++1  F8 E6 5F
++1  FA FE DF
+0002F9 AE 4D
+0001FC DE ED
+0002FF FF ED
++1  F8 FE DF
+0002F9 B6 4D
+0180FF FF FD
+0002FF FF ED
++1  F8 FE DF
+0002F9 96 4D
+0184FF FF FD
+0002FF FF ED
++1  F8 FE 5F
+0002F8 B6 4D
+0188FF FF FD
+0002FF FF ED
++1  F8 FE 5F
+0002F8 96 4D
+018CFF FF FD
++1  F9 CE 5F
++1  E8 F9 5F
++1  F8 E6 5F
++1  FA FE DF
+0002F8 AE 4D
++1  F9 CE 5F
++1  E8 F9 5F
++1  F8 E6 5F
++1  FA FE DF
+0002FB AE 4D
+0002FF FF ED
++1  F8 C6 DF
+0002FB B6 4D
+019AFF FF FD
+0002FF FF ED
++1  F8 C6 DF
+0002FB 96 4D
++1  F9 CE 5F
++1  E8 F9 5F
++1  F8 E6 5F
++1  FA FE DF
+0002FA AE 4D
+0002FF FF ED
++1  F8 C6 5F
+0002FA B6 4D
+01A6FF FF FD
+0002FF FF ED
++1  F8 C6 5F
+0002FA 96 4D
+01AAFF FF FD
++1  DF D6 5B
++1  E0 C6 7F
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 F6 5F
++1  F8 76 5F
+0278F9 76 4F
++1  DF D6 5B
++1  E0 C6 FF
++1  F8 DE 5F
++1  F9 CE 5F
++1  F8 76 1F
++1  F8 76 5F
+0275F8 76 0F
++1  DF D6 5B
++1  E0 FE FF
++1  F8 DE 5F
++1  F9 CE 5F
++1  F8 76 1F
++1  F8 76 5F
++1  F8 76 5F
+0276F8 76 0F
++1  F8 DE 5F
++1  F9 CE 5F
++1  F8 76 1F
++1  F8 76 5F
++1  F8 76 5F
+01B6F8 76 1F
++1  F9 76 5F
++1  F8 DE 5F
++1  F8 CE 5F
++1  F8 D6 5F
++1  DF D6 5B
++1  E8 F9 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 DE 5F
++1  F8 CE 5F
++1  DF D6 5B
+02FF7F FE DB
++1  F8 DE 5F
++1  F9 CE 5F
++1  F8 76 1F
++1  F8 76 5F
++1  F8 76 5F
+01B6F8 76 1F
++1  F8 76 5F
+01CDF9 F6 4F
++1  FA C6 DF
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 F6 5F
++1  F8 76 5F
+01CDF9 76 4F
++1  FA FE 5F
++1  F8 DE 5F
++1  F9 CE 5F
++1  F8 76 1F
++1  F8 76 5F
++1  F8 76 1F
+01DFF8 76 4F
++1  F8 F6 5F
++1  F8 F6 5F
++1  DE F6 5B
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 76 5F
++1  F8 76 5F
+01DFF8 76 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+06FFBF FB 7BHLT 停机指令下址入口
+0001FF FF ED
+0003BF FF EFHLT 停机指令中断激活入口
+0001FF FF ED
+06FFBF FB 7BWAIT 等待指令下址入口
+0001BE FF A5
+0206FE FF E7WAIT 等待指令中断辙消入口
++1  F8 DE 5FMOV AL,[SI]
+020DF8 F6 4F
++1  DF DE 7BMOV AL,[DI]
++1  EC F9 3F
+000178 FB 6D
+020BDF F6 4B
++1  FC C6 3FMOV AL,[BX]
+000178 FB 6D
+0002FF FF ED
++1  F8 F9 9F
+0002F1 F6 0D
+0240FF FF FD
+0002FF FF ED
++1  F8 F9 9F
+0002F1 D6 0D
++1  DF D6 5B
++1  F8 F9 9F
++1  F8 EE 1F
++1  E0 CE 1F
++1  F8 F9 9F
++1  F8 E6 1F
++1  EA F9 1F
+0002F1 EE 0D
++1  FF FF FF
++1  FA F9 DF
+01F3DE DE 4B
+0271DE DE 4B
+02B3FF FF 6F
++1  F8 DE 5F
+0270F8 F6 4F
++1  F8 DE 5F
+01AEF8 CE 4F
++1  F8 DE 5F
+01BEF8 CE 4F
+0270F8 DE 4F
+02F3FF FF 6F
++1  F8 DE 5F
+0225F8 F6 4F
++1  F8 DE 5F
+01B7F8 CE 4F
+0002FF FF ED
++1  F8 C6 1F
+0002FA B6 0D
+0244FF FF FD
+0002FF FF ED
++1  F8 C6 1F
+0002FA 96 0D
++1  DF D6 5B
++1  F8 F9 9F
++1  F8 EE 1F
++1  E0 CE 1F
++1  F8 F9 9F
++1  F8 E6 1F
++1  EA F9 1F
+0002F1 EE 0D
+04F8FF FF FD
+0002FF FF ED
++1  E8 F9 1F
+0002E0 B6 0D
+0230FF FF FD
+0002FF FF ED
++1  E8 F9 1F
+0002E0 D6 0D
+0234FF FF FD
++1  F8 DE 5FMOV AH,[SI]
+024DF8 F6 4F
++1  DF DE 7BMOV AH,[DI]
++1  EC F9 3F
+000179 FB 6D
+024BDF F6 4B
++1  FC C6 3FMOV AH,[BX]
+000179 FB 6D
++1  F8 F6 5FADD AX,AX/CX/BX/DX...
++1  F9 76 5F
++1  F8 FB 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
+027BF8 76 4F
++1  F8 F6 5F
++1  F8 F6 5F
++1  F8 F6 5F
++1  F8 F6 5F
++1  F9 F6 5F
++1  F8 7E 1F
++1  F8 7E 1F
++1  FA 7E 1F
++1  F8 DE 1F
++1  FC CE 1FCMP AX,AX
++1  F8 CE 5F
++1  F8 D6 5FCMP AX,CX
++1  DF D6 5B
++1  E0 C6 5FCMP AX,DX
++1  DF FE 5B
++1  F8 DE 5FCMP AX,BX
++1  F9 F6 5F
++1  F8 FB 5FCMP CX,AX
++1  B8 76 5F
++1  F8 76 5FCMP CX,CX
++1  F8 76 1F
++1  F8 76 1FCMP CX,DX
+027CF8 76 0F
+0001FF FF EDCMP CX,BX
+0001FF FF ED
+02E0DE F6 5BCMP DX,AX
++1  F8 DE 5F
++1  F8 F6 5FCMP DX,CX
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F9 F6 5F
++1  F8 FB 5F
++1  BA FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
+02FF7F FE DB
++1  FF FF 7F
+0287FA FE 4F
++1  DE DE 7B
+0287FA F9 CF
++1  F8 DE 5F
+028BF8 F6 4F
++1  FF FF 7F
+01C6E0 FE 4F
++1  FF FF 7F
+0287FA FE CF
+0370F8 DE 5F
+036FDE F6 4B
++1  F8 DE 5F
+036FDE CE 4B
++1  FF FF 7F
+0287FA C6 CF
++1  DE DE 7B
+01F3FA FE 4F
++1  DE DE 7B
+01F3FA F9 CF
++1  F8 DE 5F
+029BF8 F6 4F
+01F3DE DE 6B
+02C3FF FF 6F
++1  DE DE 7B
+01F3FA FE CF
++1  F8 DE 5F
+0220DE F6 4B
++1  F8 DE 5F
+0220DE CE 4B
++1  DE DE 7B
+01F3FA C6 CF
++1  FF 0F 7F
+02A7FA FE 4F
++1  DE DE 7B
+02A7FA F9 CF
+036FF8 DE 5F
+02ABF8 F6 4F
++1  FF FF 7F
+01F1F8 DE 4F
++1  FF 0F 7F
+02A7FA FE CF
++1  F8 DE 5F
+02A3DE F6 4B
+036FF8 DE 5F
+02A3DE CE 4B
++1  FF FF 7F
+02A7FA C6 CF
++1  FF FF 7F
+02BFFB FE 4F
++1  DE DE 7B
+02BFFB F9 CF
++1  F8 DE 5F
+02BBF8 F6 4F
++1  FF FF 7F
+02BFFB C6 4F
++1  FF FF 7F
+02BFFB FE CF
++1  F8 DE 5F
+0223DE F6 4B
++1  F8 DE 5F
+0223DE CE 4B
++1  FF FF 7F
+01E1E0 C6 4F
++1  FF FF 7F
+02C7FA FE 4F
++1  DE DE 7B
+02C7FA F9 CF
++1  F8 DE 1F
+02CBF8 F6 0F
++1  FF FF 7F
+01D9E0 FE CF
++1  FF FF 7F
+02C7FA FE CF
++1  F8 DE 5F
+0297DE F6 4B
++1  F8 DE 5F
+0297DE CE 4B
++1  FF FF 7F
+02C7FA C6 CF
++1  FF FF 7F
+02D7FA FE 4F
++1  DE DE 7B
+02D7FA F9 CF
++1  F8 DE 5F
+02DBF8 F6 4F
++1  FF FF 7F
+01F2F8 DE 4F
++1  FF FF 7F
+02D7FA FE CF
+0370F8 DE 5F
+02D3DE F6 4B
++1  F8 DE 5F
+02D3DE CE 4B
++1  FF FF 7F
+02D7FA C6 CF
++1  FF 0F 7F
+02E7FA FE 4F
++1  DE DE 7B
+02E7FA F9 CF
+036FF8 DE 5F
+02EBF8 F6 4F
++1  FF FF 7F
+01F0F8 DE 4F
++1  FF 0F 7F
+02E7FA FE CF
++1  F8 DE 5F
+02E3DE F6 4B
+036FF8 DE 5F
+02E3DE CE 4B
++1  FF FF 7F
+02E7FA C6 CF
++1  FF FF 7F
+01E9E0 C6 CF
++1  DE DE 7B
+02F1F8 F9 CF
++1  F8 DE 5F
+02FBF8 F6 4F
++1  FF FF 7F
+01EAE0 C6 CF
++1  FF FF 7F
+02F1F8 FE CF
++1  F8 DE 5F
+022BDE F6 4B
++1  F8 DE 5F
+022BDE CE 4B
++1  FF FF 7F
+02F1F8 C6 CF
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 F9 DF
+0002F1 66 4D
++1  F8 F9 DF
+0002F1 E6 4D
++1  F8 F9 DF
+0477F1 66 4F
++1  F8 F9 DF
+023FF1 6E 4F
++1  F8 F9 DF
+0002F1 EE 4D
++1  F8 F9 DF
+0002F1 6E 4D
++1  F8 F9 DF
+0175F8 EE 4F
++1  F8 F9 DF
+0002FF 6F 4D
++1  E8 F9 5F
+0002F8 26 4D
++1  E8 F9 5F
+0002F8 A6 4D
++1  E8 F9 5F
+0627F8 26 4F
++1  E8 F9 5F
+0637F8 2E 4F
++1  E8 F9 5F
+0002F8 AE 4D
++1  E8 F9 5F
+0002F8 2E 4D
++1  E8 F9 5F
+0190F8 EE 4F
++1  E8 F9 5F
+0002FF 6F 4D
++1  E8 F9 5F
+0002F9 26 4D
++1  E8 F9 5F
+0002F9 A6 4D
++1  E8 F9 5F
+0183F9 26 4F
++1  E8 F9 5F
+0187F9 2E 4F
++1  E8 F9 5F
+0002F9 AE 4D
++1  E8 F9 5F
+0002F9 2E 4D
++1  E8 F9 5F
+017AF8 EE 4F
++1  E8 F9 5F
+0002FF 6F 4D
++1  E8 F9 5F
+0002FA 26 4D
++1  E8 F9 5F
+0002FA A6 4D
++1  E8 F9 5F
+01A9FA 26 4F
++1  E8 F9 5F
+01ADFA 2E 4F
++1  E8 F9 5F
+0002FA AE 4D
++1  E8 F9 5F
+0002FA 2E 4D
++1  E8 F9 5F
+01A1F8 EE 4F
++1  E8 F9 5F
+0002FF 6F 4D
++1  E8 F9 5F
+0002FB 26 4D
++1  E8 F9 5F
+0002FB A6 4D
++1  E8 F9 5F
+019DFB 26 4F
++1  E8 F9 5F
+041FFB 2E 4F
++1  E8 F9 5F
+0002FB AE 4D
++1  E8 F9 5F
+0002FB 2E 4D
++1  E8 F9 5F
+0195F8 EE 4F
++1  E8 F9 5F
+0002FF 6F 4D
++1  DE F6 5B
++1  FA F9 CF
++1  DE 76 5B
++1  F8 DE 5F
++1  F8 F6 5F
++1  F9 76 5F
++1  F8 FB 5F
++1  BA FB 5F
++1  BB FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
+04FF7F FE DB
+0283FF FF 6F
++1  DF F6 5B
++1  EA F9 1F
+0524DE DE 4B
++1  DF D6 5B
++1  E0 C6 3F
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 76 5F
+0366F9 F6 4F
++1  DF 76 5B
++1  F8 DE 5F
+02F1F8 F6 5F
++1  F8 76 5F
+0366F9 76 4F
+02B3FF FF 7F
+02F3FF FF 6F
++1  DE F6 5B
+0392FA F9 CF
++1  DE DE 7B
+0001F8 F9 ED
++1  F8 DE 1F
+038BF8 F6 0F
+0001F8 C6 6D
+0001FF FF ED
+0001F8 FE ED
+0001FF FF ED
++1  F8 DE 5F
+0383DE F6 4B
++1  F8 DE 5F
+0383DE CE 4B
+0001F8 C6 ED
+0001FF FF ED
++1  DE DE 7B
+0001F1 FE 6D
++1  DE DE 5B
+0001F1 C6 4D
++1  F8 DE 5F
+0380F8 F6 4F
++1  DE DE 7B
+0001F1 C6 6D
++1  DE DE 7B
+0001F1 FE ED
++1  F8 DE 1F
+0381DE F6 4B
++1  F8 DE 1F
+0381DE CE 4B
++1  DE DE 7B
+0001F1 C6 ED
+03A6FA FE 4F
+03A6FA F9 CF
++1  DE DE 7B
+03A6FA F9 CF
++1  DE F6 5B
+0001F1 C6 4D
++1  F8 DE 1F
+03A4F8 F6 0F
+03A6FA FE CF
+0001FF FF ED
++1  F8 DE 1F
+03A3DE F6 4B
++1  F8 DE 1F
+03A3DE CE 4B
+03A6FA C6 CF
+0001FF FF ED
+0001FA FE 6D
+0001FF FF ED
++1  DE DE 7B
+0001FA F9 ED
++1  F8 DE 1F
++1  F8 F6 1F
++1  DE F6 5B
+0001FA F9 ED
+0001FA FE ED
+0001FF FF ED
++1  F8 DE 1F
+03BFDE F6 4B
++1  F8 DE 1F
+03BFDE CE 4B
+0001FA C6 ED
+0001FA F9 ED
+0001F9 FE 6D
+0001FF FF ED
++1  DE DE 7B
+0001F9 F9 ED
++1  F8 DE 1F
+03C7F8 F6 0F
+0001F9 C6 6D
+03C3DE F6 4B
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 1F
+03C3DE F6 4B
++1  F8 DE 1F
+03C3DE CE 4B
+0001F9 C6 ED
+0001FF FF ED
+03D9FA FE 4F
+03D3DE F6 4B
++1  DE DE 5B
+03D9FA F9 CF
++1  F8 DE 1F
+03D1F8 F6 0F
+03DAF8 DE 0F
+0001FF FF ED
++1  FA FE DF
++1  F8 DE 1F
++1  DE F6 5B
+0001F1 C6 4D
++1  F8 DE 1F
+03D3DE CE 4B
+03D9FA C6 CF
+0001FF FF ED
+03E6FA FE 4F
+03E3DE F6 4B
++1  DE DE 5B
+03E6FA F9 CF
++1  F8 DE 1F
+03E1F8 F6 0F
++1  F8 DE 1F
+03EDDE CE 4B
++1  FA FE DF
+03ECF8 DE 0F
++1  F8 DE 1F
+03EFDE F6 4B
++1  DE CE 5B
+0001F1 C6 4D
+03E9FA C6 CF
+03E9FA F9 CF
+0001FB FE 6D
+0001FF FF ED
++1  DE DE 5B
+0001FB F9 ED
++1  F8 DE 1F
+03FBF8 F6 0F
+0001FB C6 6D
+0001FF FF ED
+0001FB FE ED
+0001FF FF ED
++1  F8 DE 1F
+03F3DE F6 4B
++1  F8 DE 1F
+03F3DE CE 4B
++1  F9 F6 5F
++1  F8 FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 7E 1F
++1  F8 7E 1F
++1  F8 7E 1F
+00FF7F FE 5B
+0001FF FF ED
++1  F8 DE 5F
+040DF8 F6 4F
++1  DF DE 7B
++1  EC F9 3F
+000178 FB 2D
+040BDF F6 4B
++1  FC C6 3F
+000178 FB 2D
++1  DE F6 5B
+0483FF FF 6F
++1  DF F6 5B
++1  EA F9 1F
++1  F8 DE 5F
++1  F8 F6 5F
+0524DE F6 4B
++1  DE F6 5B
+0524FA F9 8F
++1  DE F6 5B
+0524FF FF 6F
+0526FA F9 8F
+048BDF DE 4B
++1  DE F6 5B
+04B3FF FF 6F
+019EFF FF FD
++1  F8 F9 9F
+0002F1 66 0D
++1  F8 F9 9F
+0002F1 E6 0D
++1  F8 F9 9F
+050FF1 66 0D
++1  F8 F9 9F
+0503F1 6E 0D
++1  F8 F9 9F
+0002F1 EE 0D
++1  F8 F9 9F
+0002F1 6E 0D
++1  F8 DE 5F
+0217F8 CE 4F
++1  F8 F9 9F
+0002FF 6F 0D
++1  E8 F9 1F
+0002FA 26 0D
++1  E8 F9 1F
+0002FA A6 0D
++1  E8 F9 1F
+0243FA 26 0F
++1  E8 F9 1F
+0247FA 2E 0F
++1  E8 F9 1F
+0002FA AE 0D
++1  E8 F9 1F
+0002FA 2E 0D
++1  E8 F9 1F
+00D9F8 EE 0F
++1  E8 F9 1F
+0002FF 6F 0D
++1  E8 F9 1F
+0002E0 66 0D
++1  E8 F9 1F
+0002E0 E6 0D
++1  E8 F9 1F
+0213E0 66 0F
++1  E8 F9 1F
+0233E0 6E 0F
++1  E8 F9 1F
+0002E0 EE 0D
++1  E8 F9 1F
+0002E0 6E 0D
+0001FF FF ED
+0001FF FF ED
++1  E8 F9 1F
+0002FF 6F 0D
++1  E8 F9 1F
+0002F8 26 0D
++1  E8 F9 1F
+0002F8 A6 0D
++1  E8 F9 1F
+0615F8 26 0F
++1  E8 F9 1F
+0247F8 2E 0F
++1  E8 F9 1F
+0002F8 AE 0D
++1  E8 F9 1F
+0002F8 2E 0D
++1  E8 F9 1F
+00F0F8 EE 0F
++1  E8 F9 1F
+0002FF 6F 0D
++1  F8 F6 5F
++1  F8 F6 5F
++1  F8 F6 5F
++1  F8 F6 5F
++1  F9 F6 5F
++1  F8 7E 1F
++1  F8 7E 1F
++1  FA 7E 1F
++1  F8 DE 1F
+053BFC CE 1F
++1  F8 CE 5F
++1  F8 D6 5F
++1  DF D6 5B
++1  E0 C6 5F
++1  DF FE 5B
++1  F8 DE 5F
++1  F9 F6 5F
++1  F8 FB 5F
++1  B8 76 5F
++1  F8 76 5F
++1  F8 76 1F
++1  F8 76 1F
+036BF8 76 0F
+04E8FF FF FD
+0002FF FF 6D
+0002F8 D6 2D
+0002FF FF 6D
+0002F8 F6 2D
+0002FF FF 6D
+0002F8 F6 6D
+0002FF FF 6D
+0002F8 D6 6D
++1  FF FF 7F
+0487FA FE 0F
++1  DE DE 7B
+0487FA F9 8F
++1  F8 DE 5F
+0410F8 F6 4F
++1  FF FF 7F
+0520E0 FE 0F
++1  F8 DE 5F
++1  F8 F6 5F
++1  DF F6 5B
+0497EA F9 0F
++1  FF FF 7F
+0488E0 FE 0F
++1  FF FF 7F
+041CE0 FE 0F
++1  DE DE 7B
+0524FA FE 0F
++1  DE DE 7B
+0524FA F9 8F
++1  F8 DE 5F
+05C7F8 F6 4F
+0524DE DE 6B
++1  F8 DE 5F
++1  F8 CE 5F
+0520DF D6 4B
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 5F
+0370F8 F6 4F
+0371DF DE 4B
+04E3DE F6 4B
++1  F8 DE 5F
+05EBF8 F6 4F
++1  DE DE 7B
+0414FA F9 8F
++1  F8 DE 5F
+0417F8 F6 4F
+0414FF FF 6F
++1  F8 DE 5F
++1  F8 CE 5F
+0526DF D6 4B
++1  DE F6 5B
+0596FA F9 8F
++1  F8 DE 5F
+0412F8 F6 4F
+0413DF DE 6B
+04BBDF DE 4B
++1  E0 C6 3F
+0526FA FE 0F
++1  DE DE 7B
+041BE0 C6 0F
++1  F8 DE 5F
+041DF8 F6 4F
++1  FF FF 7F
+0526E0 C6 2F
++1  F8 DE 5F
++1  F8 F6 5F
++1  DF F6 5B
+04A7EA F9 0F
++1  FF FF 7F
+04B8E0 C6 0F
++1  FF FF 7F
+04AFE0 C6 0F
++1  F8 DE 5F
+02F1F8 F6 5F
++1  F8 76 5F
+04C0F9 76 5F
++1  F8 DE 5F
++1  F8 CE 5F
++1  F8 D6 5F
++1  DF D6 5B
++1  E8 F9 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 DE 5F
+0320F8 F6 5F
++1  DF F6 5B
+04FF7F FE DB
++1  BB FB 5F
+0002B6 66 0D
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 76 5F
++1  F9 76 5F
++1  F8 DE 5F
++1  F8 CE 5F
++1  F8 D6 5F
++1  DF D6 5B
++1  E8 F9 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
++1  DF DE 5B
+04FF7F FE DB
++1  FF FF 7F
+04C0FA FE 0F
++1  DE DE 7B
+04C0FA F9 8F
++1  F8 DE 5F
+049FF8 F6 4F
+04C0FF FF 6F
+04F3DE F6 4B
+0002FF FF ED
++1  F8 F9 DF
+0002F1 F6 4D
+04EFDF F6 4B
++1  F8 DE 5F
+04EBF8 F6 4F
++1  DF DE 5B
+04C0EA F9 0F
++1  FF FF 7F
+04D2FA FE 0F
++1  DE DE 7B
+04D2FA F9 8F
++1  F8 DE 5F
+04E7F8 F6 4F
+04D2FF FF 6F
+0001FF FF ED
+0002FF FF ED
++1  F8 F9 DF
+0002F1 D6 4D
+04FFDF F6 4B
++1  F8 DE 5F
+04FBF8 F6 4F
++1  DF DE 5B
+04D2EA F9 0F
++1  BB FB 5F
+0002B6 66 0D
+0363DE DE 4B
+0214FF FF FD
++1  F8 DE 5F
+0362F8 F6 4F
++1  F8 DE 5F
+0373F8 CE 4F
++1  F8 FD 1F
+04D0FA FB 4F
++1  BF FF FF
+0001BF FF ED
++1  F8 DE 5F
+0379F8 F6 4F
+037ADF DE 4B
+0210FF FF FD
++1  F8 F6 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F9 76 5F
++1  F8 FB 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
++1  F8 76 5F
+036BF8 76 4F
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 76 5F
+0529F8 76 4F
++1  F8 DE 1F
+0529F8 F6 4F
++1  F8 DE 5F
++1  F8 F6 5F
++1  F8 F6 5F
++1  F9 F6 5F
++1  F8 DE 5F
++1  F8 CE 5F
++1  F8 D6 5F
++1  DF D6 5B
++1  E8 F9 5F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 76 1F
++1  F8 DE 5F
++1  F8 CE 5F
++1  DF D6 5B
+04FF7F FE DB
++1  DF F6 5B
+0001E0 C6 0D
++1  DE F6 5B
+0001F1 C6 0D
++1  F8 EE 5F
++1  FB CE 5F
++1  F8 FE DF
++1  F8 E6 5F
++1  FA C6 DF
+0002F8 AE 4F
+0001F8 76 6D
+0001BB 2E 4D
+0001F8 7E 6D
+0001BA 2E 4D
+0001F8 56 6D
+0001B9 2E 4D
+0001F8 5E 6D
++1  FF FF FF
++1  FF BF 7F
+0001F8 56 6D
++1  FF BF 7F
+0001F8 5E 6D
+0001FF FF ED
+0001FF FF ED
++1  FF 57 7F
+0001F8 5E 6D
+0001F8 76 2D
++1  FF FF FF
+0001F8 7E 2D
++1  FF FF FF
+0001F8 56 2D
++1  FF FF FF
+0001F8 5E 2D
++1  FF FF FF
++1  FF BF 7F
+0001F8 56 2D
++1  FF BF 7F
+0001F8 5E 2D
++1  DE F6 5B
+0423FF FF 6F
++1  FF 57 3F
+0001F8 5E 2D
++1  F8 F6 1F
++1  F6 F6 1F
+000178 BB 0D
++1  F8 F6 1F
++1  F6 F6 1F
+00017A BB 0D
++1  DE F6 5B
++1  FC FD 3F
+0560F8 FD 1F
++1  F8 F6 1F
++1  F6 F6 1F
+000171 FB 0D
++1  F8 F6 1F
++1  F6 F6 1F
+000176 FB 0D
+0001FF FF ED
++1  DF F6 5B
++1  FC FD 1F
+0560F8 FD 1F
++1  F8 F6 1F
++1  F6 F6 1F
+000160 FB 0D
++1  F8 D6 1F
++1  F6 D6 1F
++1  FC D6 1F
+00015E C6 0D
++1  DE F6 5B
++1  FA F9 9F
+0576F8 FD 0F
++1  DF F6 5B
++1  EA F9 1F
+0576F8 FD 0F
+0001FF FF ED
+0592FA F9 8F
++1  DE DE 7B
+0001F8 F9 AD
++1  F8 DE 1F
+058BF8 F6 0F
+0001F8 C6 2D
+0053DE F6 4F
+0001F8 FD 2D
+058FDF F6 4B
+0001FF FF ED
+0583DE F6 4B
++1  F8 DE 5F
+0589F8 F6 4F
++1  DF DE 7B
+0001E8 F9 2D
++1  DE DE 7B
+0001F1 FE 2D
+0001FF FF ED
+069FDF F6 4B
++1  F8 DE 1F
+04AAF8 F6 0F
++1  DE DE 5B
+0001F1 C6 0D
++1  DE DE 7B
+0001F1 FD 2D
+0001FF FF ED
+059FDF F6 4B
++1  F8 DE 5F
+059BF8 F6 4F
++1  DF DE 7B
+0596EA F9 0F
+05A6FA FE 0F
+03A6FA F9 CF
++1  DE DE 7B
+05A6FA F9 8F
+0001FF FF ED
+0001E0 D6 0D
++1  F8 DE 5F
+0538F8 F6 4F
+05A6FA FD 0F
+05AFDF F6 4B
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 5F
+05A9F8 F6 4F
++1  DF DE 7B
+05A6EA F9 0F
+0001FA FE 2D
+0001F1 D6 0D
++1  DE DE 7B
+0001FA F9 AD
++1  F8 DE 5F
+05B7F8 F6 4F
+0001FF FF ED
+05B3DE F6 4B
+0001FA FD 2D
+068FDF F6 4B
+0001FF FF ED
+05BFDF F6 4B
++1  F8 DE 5F
+05BBF8 F6 4F
++1  DF DE 7B
+0001EA F9 2D
+0001F6 FE 2D
+05C3DE F6 4B
++1  DE DE 7B
+0001F6 F9 AD
++1  F8 DE 1F
+05C1F8 F6 0F
+0001F6 C6 2D
++1  DE F6 5B
++1  FA F9 9F
+0524DE DE 4B
+0001FF FF ED
+05CFDF F6 4B
++1  F8 DE 5F
+05CBF8 F6 4F
++1  DF DE 7B
+0001E6 F9 2D
+0001FF FF ED
+005BF8 F6 4F
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+069FDF F6 4B
+0001FF FF ED
+0001E0 D6 0D
+0001FF FF ED
++1  DF F6 5B
+0001E0 C6 0D
+05F3DE F6 5B
+0001FF FF ED
+0001F1 D6 0D
+0001FF FF ED
+068FDF F6 4B
+05E6FA FE 0F
+05E3DE F6 4B
++1  DE DE 5B
+05E6FA F9 8F
++1  F8 DE 1F
+05E1F8 F6 0F
++1  F8 DE 5F
+0536F8 F6 4F
+05E6FA FD 0F
+05F3DE F6 4B
+0001FF FF ED
++1  DE F6 5B
++1  FF FF 7F
+0524FA FE 0F
++1  DF DE 7B
+05E6EA F9 0F
++1  DF DE 7B
+0001E0 FE 2D
++1  DE DE 5B
+05F6FA F9 8F
++1  F8 DE 1F
+05E9F8 F6 0F
++1  DF DE 5B
+0001E0 C6 0D
+05F6FA FD 0F
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 1F
++1  F8 F6 5F
++1  DF F6 5B
+05F6EA F9 0F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+025FFA DE 4F
++1  F8 DE 1F
+0468FA DE 4F
+0478FF FF FD
++1  FA FB 5F
+0002B8 26 4D
++1  FA FB 5F
+06EBBB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+025BF8 DE 4F
+047AFF FF FD
+0464F8 DE 4F
+0002B8 A6 0D
++1  FA FB 5F
+0002B8 A6 4D
++1  FA FB 5F
+0617BB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+025AF8 DE 4F
+0615B8 26 0F
+0463F8 DE 4F
+047CFF FF FD
++1  FA FB 5F
+0627B8 26 4F
++1  FA FB 5F
+0625BB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0259F8 DE 4F
+0607B8 2E 0F
+0462F8 DE 4F
+047EFF FF FD
++1  FA FB 5F
+0637B8 2E 4F
++1  FA FB 5F
+0635BB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0258F8 DE 4F
+0001FF FF ED
+0461F8 DE 4F
+0002B8 AE 0D
++1  FA FB 5F
+0002F8 AE 4D
++1  FA FB 5F
+0647BB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0257F8 DE 4F
+027AFC CE 0F
+0460F8 DE 4F
+0001FF FF ED
++1  FA FB 5F
+0002B8 2E 4D
++1  FA FB 5F
+0721BB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0479F8 DE 5F
+0257F8 F6 4F
++1  F8 DE 5F
+0460F8 F6 4F
++1  FA FB 5F
+053AB9 FE 4F
++1  F8 DE 5F
+00EBF8 CE 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 DE 5F
+0665F8 F6 4F
++1  F8 DE 5F
+0667F8 F6 4F
++1  FA FB 5F
+0002BF 6F 4D
++1  FA FB 5F
+06E7BB FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0001F8 F6 2D
+0001F1 F6 0D
++1  DE DE 7B
+0681F8 F9 8F
++1  F8 DE 5F
+068BF8 F6 4F
++1  F8 C6 1F
+0001FA B6 0D
++1  F8 FD 1F
+0001F6 F6 0D
+0001FF FF ED
+0683DE F6 4B
++1  F8 DE 5F
+05B9F8 F6 4F
++1  DF DE 7B
+0691E8 F9 0F
+0001F8 D6 2D
+0001E0 F6 0D
++1  DE DE 7B
+05B1F8 F9 8F
++1  F8 DE 5F
+069BF8 F6 4F
++1  F8 C6 1F
+0001FA 96 0D
++1  F8 FD 1F
+0001F6 D6 0D
+0001FF FF ED
+0693DE F6 4B
++1  F8 DE 5F
+0593F8 F6 4F
++1  DF DE 7B
+05A5E8 F9 0F
++1  FA FE 1F
+0576F8 FD 0F
+057BDE DE 6B
+0001FF FF ED
++1  F8 DE 5F
+057AF8 F6 4F
+0576F8 FD 0F
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 5F
+057DF8 F6 4F
+057EDF DE 6B
++1  FF FF FF
++1  FC FD 3F
+0560F8 FD 0F
++1  DE DE 7B
+0568FC FD 2F
++1  F8 DE 5F
+0566F8 F6 4F
++1  FC FD 3F
+0563F8 FD 0F
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
++1  F8 DE 5F
+0570F8 F6 4F
++1  DF DE 7B
+0572FC FD 2F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0118FF FF FD
+0001FF 6F 4D
+0116FF FF FD
+0002BF 6F 0D
+0118FF FF FC
+0001E0 F6 0D
+0116FF FF FC
+0001B8 26 0D
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 DE 1F
+0250FC CE 0F
++1  F8 DE 1F
+0510FC CE 0F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 DE 1F
+071DFC CE 0F
++1  F8 FB 5F
+014EB8 5E 5D
+02FFBF FB FB
+0001FF FF ED
+04FFBF FB FB
+0001FF FF ED
+02FFBF FB FB
+0001FF FF ED
++1  B8 FB 5F
+0138B9 FB 4F
+0001BF FF ED
+0142F8 CE 4F
+0001FF FF ED
+0001FF FF ED
+0001FF FF ED
+0002B8 2E 0D
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 F8 1F
+02053F D6 0D
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  FA FB 5F
+0001BF EF 4D
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 FB 7F
+0001BF FF ED
+07F1DE DE 6B
+0001FF FF ED
++1  F8 DE 5F
+076BF8 F6 4F
+0761FA FB 6F
+0001FF FF ED
+0761F9 FB 6F
+076BF8 F6 4F
++1  F8 DE 5F
+07F1DE F6 4B
++1  F8 DE 5F
+0769F8 F6 4F
+0761FB FB 6F
+0001FF FF ED
++1  F8 FB 7F
+0761B9 FB 6F
++1  DE DE 7B
+013CF8 FB CF
++1  F8 DE 5F
+013AF8 F6 4F
++1  FA FB 7F
+0761BB FB 6F
++1  F6 FB 7F
+0761B7 FB 6F
++1  BF FF FF
+0001BF FF ED
++1  F8 DE 5F
+013EF8 F6 4F
++1  DF DE 5B
+0140F8 FB 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  FC FD 3F
+0120F8 FD 0F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 FB 5F
+0150B8 5E 5D
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
+0786FE FF A7
+0001FF FF ED
++1  F8 DE 1F
+0160FC CE 0F
++1  F8 DE 1F
+016EFC CE 0F
++1  F8 DE 1F
+0160FC CE 0F
++1  F8 DE 1F
+016EFC CE 0F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  DE DE 7B
+07CBF8 F9 8F
+0001FF FF ED
+0001FF FF ED
++1  F8 FB 5F
+0136BF 5E 5D
+0001B8 FC 2D
+0116F1 D6 1C
++1  F8 FB 5F
+0134BF 5E 5D
+0001B4 FE 2D
+0001FF FF ED
++1  FA FB DF
+0107B8 FD 0F
++1  F8 FB DF
+0126B9 FB CF
+0001FF FF ED
+0001FF FF ED
++1  F8 FB DF
+0100BF 57 5D
++1  F8 DE 5F
+012EF8 F6 4F
++1  F8 DE 5F
+0131F8 F6 4F
++1  F8 DE 5F
+0128F8 F6 4F
++1  F8 DE 5F
+012BF8 F6 4F
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 F8 1F
+02013F D6 0D
+0001FF BF AD
+0001FF FF ED
++1  F8 DE 1F
+00C2FC CE 0F
++1  F8 DE 1F
+00B7FC CE 0F
+0001FF BF 6D
+0761F1 FB EF
+0001FF BF ED
+0001FF FF ED
+0001FF FF A5
+0001FF FF ED
+0001FF FF E5
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  <未使用>
++1  F8 DE 1F
+00BAFC CE 0F
++1  <未使用>
++1  <未使用>
+.MSFIRST  ;多字节指令顺序汇编，在汇编时按顺序生成代码，不用此命令则按逆序生成代码。
+
+;助记符 操作数              指令码 长度  方式
+;-----------------------------------------------------
+MOV     [BX],AX               8907  2
+MOV     [BX],BX               891F  2
+MOV     [BX],CX               890F  2
+MOV     [BX],DX               8917  2
+MOV     [BX],SP               8927  2
+MOV     [BX],AL               8807  2
+MOV     [BX],AH               8827  2
+MOV     [BX],BL               881F  2
+MOV     [BX],BH               883F  2
+MOV     [BX],CL               880F  2
+MOV     [BX],CH               882F  2
+MOV     [BX],DL               8817  2
+MOV     [BX],DH               8837  2
+MOV     WORD[BX],*            C707  4
+MOV     BYTE[BX],*            C607  3
+MOV     AX,[BX]               8B07  2
+MOV     BX,[BX]               8B1F  2
+MOV     CX,[BX]               8B0F  2
+MOV     DX,[BX]               8B17  2
+MOV     SP,[BX]               8B27  2
+MOV     AL,[BX]               8A07  2
+MOV     AH,[BX]               8A27  2
+MOV     BL,[BX]               8A1F  2
+MOV     BH,[BX]               8A3F  2
+MOV     CL,[BX]               8A0F  2
+MOV     CH,[BX]               8A2F  2
+MOV     DL,[BX]               8A17  2
+MOV     DH,[BX]               8A37  2
+MOV     AX,AX                 8BC0  2
+MOV     AX,BX                 8BC3  2
+MOV     AX,CX                 8BC1  2
+MOV     AX,DX                 8BC2  2
+MOV     AX,SP                 8BC4  2
+MOV     BX,AX                 8BD8  2
+MOV     BX,BX                 8BDB  2
+MOV     BX,CX                 8BD9  2
+MOV     BX,DX                 8BDA  2
+MOV     BX,SP                 8BDC  2
+MOV     CX,AX                 8BC8  2
+MOV     CX,BX                 8BCB  2
+MOV     CX,CX                 8BC9  2
+MOV     CX,DX                 8BCA  2
+MOV     CX,SP                 8BCC  2
+MOV     DX,AX                 8BD0  2
+MOV     DX,BX                 8BD3  2
+MOV     DX,CX                 8BD1  2
+MOV     DX,DX                 8BD2  2
+MOV     DX,SP                 8BD4  2
+MOV     SP,AX                 8BE0  2
+MOV     SP,BX                 8BE3  2
+MOV     SP,CX                 8BE1  2
+MOV     SP,DX                 8BE2  2
+MOV     SP,SP                 8BE4  2
+MOV     AL,AL                 8AC0  2
+MOV     AL,AH                 8AC4  2
+MOV     AL,BL                 8AC3  2
+MOV     AL,BH                 8AC7  2
+MOV     AL,CL                 8AC1  2
+MOV     AL,CH                 8AC5  2
+MOV     AL,DL                 8AC2  2
+MOV     AL,DH                 8AC6  2
+MOV     AH,AL                 8AE0  2
+MOV     AH,AH                 8AE4  2
+MOV     AH,BL                 8AE3  2
+MOV     AH,BH                 8AE7  2
+MOV     AH,CL                 8AE1  2
+MOV     AH,CH                 8AE5  2
+MOV     AH,DL                 8AE2  2
+MOV     AH,DH                 8AE6  2
+MOV     BL,AL                 8AD8  2
+MOV     BL,AH                 8ADC  2
+MOV     BL,BL                 8ADB  2
+MOV     BL,BH                 8ADF  2
+MOV     BL,CL                 8AD9  2
+MOV     BL,CH                 8ADD  2
+MOV     BL,DL                 8ADA  2
+MOV     BL,DH                 8ADE  2
+MOV     BH,AL                 8AF8  2
+MOV     BH,AH                 8AFC  2
+MOV     BH,BL                 8AFB  2
+MOV     BH,BH                 8AFF  2
+MOV     BH,CL                 8AF9  2
+MOV     BH,CH                 8AFD  2
+MOV     BH,DL                 8AFA  2
+MOV     BH,DH                 8AFE  2
+MOV     CL,AL                 8AC8  2
+MOV     CL,AH                 8ACC  2
+MOV     CL,BL                 8ACB  2
+MOV     CL,BH                 8ACF  2
+MOV     CL,CL                 8AC9  2
+MOV     CL,CH                 8ACD  2
+MOV     CL,DL                 8ACA  2
+MOV     CL,DH                 8ACE  2
+MOV     CH,AL                 8AE8  2
+MOV     CH,AH                 8AEC  2
+MOV     CH,BL                 8AEB  2
+MOV     CH,BH                 8AEF  2
+MOV     CH,CL                 8AE9  2
+MOV     CH,CH                 8AED  2
+MOV     CH,DL                 8AEA  2
+MOV     CH,DH                 8AEE  2
+MOV     DL,AL                 8AD0  2
+MOV     DL,AH                 8AD4  2
+MOV     DL,BL                 8AD3  2
+MOV     DL,BH                 8AD7  2
+MOV     DL,CL                 8AD1  2
+MOV     DL,CH                 8AD5  2
+MOV     DL,DL                 8AD2  2
+MOV     DL,DH                 8AD6  2
+MOV     DH,AL                 8AF0  2
+MOV     DH,AH                 8AF4  2
+MOV     DH,BL                 8AF3  2
+MOV     DH,BH                 8AF7  2
+MOV     DH,CL                 8AF1  2
+MOV     DH,CH                 8AF5  2
+MOV     DH,DL                 8AF2  2
+MOV     DH,DH                 8AF6  2
+MOV     AX,*                  B8    3
+MOV     BX,*                  BB    3
+MOV     CX,*                  B9    3
+MOV     DX,*                  BA    3
+MOV     SP,*                  BC    3
+MOV     AL,*                  B0    2
+MOV     AH,*                  B4    2
+MOV     BL,*                  B3    2
+MOV     BH,*                  B7    2
+MOV     CL,*                  B1    2
+MOV     CH,*                  B5    2
+MOV     DL,*                  B2    2
+MOV     DH,*                  B6    2
+
+PUSH    AX                    50    1
+PUSH    BX                    53    1
+PUSH    CX                    51    1
+PUSH    DX                    52    1
+
+POP     AX                    58    1
+POP     BX                    5B    1
+POP     CX                    59    1
+POP     DX                    5A    1
+
+IN      AX,DX                 ED    1
+IN      AL,DX                 EC    1
+IN      AX,*                  E5    2
+IN      AL,*                  E4    2
+
+OUT     DX,AX                 EF    1
+OUT     DX,AL                 EE    1
+OUT     *,AX                  E7    2
+OUT     *,AL                  E6    2
+
+ADD     AX,AX                 03C0  2
+ADD     AX,BX                 03C3  2
+ADD     AX,CX                 03C1  2
+ADD     AX,DX                 03C2  2
+ADD     BX,AX                 03D8  2
+ADD     BX,BX                 03DB  2
+ADD     BX,CX                 03D9  2
+ADD     BX,DX                 03DA  2
+ADD     CX,AX                 03C8  2
+ADD     CX,BX                 03CB  2
+ADD     CX,CX                 03C9  2
+ADD     CX,DX                 03CA  2
+ADD     DX,AX                 03D0  2
+ADD     DX,BX                 03D3  2
+ADD     DX,CX                 03D1  2
+ADD     DX,DX                 03D2  2
+ADD     AL,AL                 02C0  2
+ADD     AL,AH                 02C4  2
+ADD     AL,BL                 02C3  2
+ADD     AL,BH                 02C7  2
+ADD     AL,CL                 02C1  2
+ADD     AL,CH                 02C5  2
+ADD     AL,DL                 02C2  2
+ADD     AL,DH                 02C6  2
+ADD     AH,AL                 02E0  2
+ADD     AH,AH                 02E4  2
+ADD     AH,BL                 02E3  2
+ADD     AH,BH                 02E7  2
+ADD     AH,CL                 02E1  2
+ADD     AH,CH                 02E5  2
+ADD     AH,DL                 02E2  2
+ADD     AH,DH                 02E6  2
+ADD     BL,AL                 02D8  2
+ADD     BL,AH                 02DC  2
+ADD     BL,BL                 02DB  2
+ADD     BL,BH                 02DF  2
+ADD     BL,CL                 02D9  2
+ADD     BL,CH                 02DD  2
+ADD     BL,DL                 02DA  2
+ADD     BL,DH                 02DE  2
+ADD     BH,AL                 02F8  2
+ADD     BH,AH                 02FC  2
+ADD     BH,BL                 02FB  2
+ADD     BH,BH                 02FF  2
+ADD     BH,CL                 02F9  2
+ADD     BH,CH                 02FD  2
+ADD     BH,DL                 02FA  2
+ADD     BH,DH                 02FE  2
+ADD     CL,AL                 02C8  2
+ADD     CL,AH                 02CC  2
+ADD     CL,BL                 02CB  2
+ADD     CL,BH                 02CF  2
+ADD     CL,CL                 02C9  2
+ADD     CL,CH                 02CD  2
+ADD     CL,DL                 02CA  2
+ADD     CL,DH                 02CE  2
+ADD     CH,AL                 02E8  2
+ADD     CH,AH                 02EC  2
+ADD     CH,BL                 02EB  2
+ADD     CH,BH                 02EF  2
+ADD     CH,CL                 02E9  2
+ADD     CH,CH                 02ED  2
+ADD     CH,DL                 02EA  2
+ADD     CH,DH                 02EE  2
+ADD     DL,AL                 02D0  2
+ADD     DL,AH                 02D4  2
+ADD     DL,BL                 02D3  2
+ADD     DL,BH                 02D7  2
+ADD     DL,CL                 02D1  2
+ADD     DL,CH                 02D5  2
+ADD     DL,DL                 02D2  2
+ADD     DL,DH                 02D6  2
+ADD     DH,AL                 02F0  2
+ADD     DH,AH                 02F4  2
+ADD     DH,BL                 02F3  2
+ADD     DH,BH                 02F7  2
+ADD     DH,CL                 02F1  2
+ADD     DH,CH                 02F5  2
+ADD     DH,DL                 02F2  2
+ADD     DH,DH                 02F6  2
+ADD     AX,*                  05    3
+ADD     BX,*                  81C3  4
+ADD     CX,*                  81C1  4
+ADD     DX,*                  81C2  4
+ADD     AL,*                  04    2
+ADD     AH,*                  80C4  3
+ADD     BL,*                  80C3  3
+ADD     BH,*                  80C7  3
+ADD     CL,*                  80C1  3
+ADD     CH,*                  80C5  3
+ADD     DL,*                  80C2  3
+ADD     DH,*                  80C6  3
+
+ADC     AX,AX                 13C0  2
+ADC     AX,BX                 13C3  2
+ADC     AX,CX                 13C1  2
+ADC     AX,DX                 13C2  2
+ADC     BX,AX                 13D8  2
+ADC     BX,BX                 13DB  2
+ADC     BX,CX                 13D9  2
+ADC     BX,DX                 13DA  2
+ADC     CX,AX                 13C8  2
+ADC     CX,BX                 13CB  2
+ADC     CX,CX                 13C9  2
+ADC     CX,DX                 13CA  2
+ADC     DX,AX                 13D0  2
+ADC     DX,BX                 13D3  2
+ADC     DX,CX                 13D1  2
+ADC     DX,DX                 13D2  2
+ADC     AL,AL                 12C0  2
+ADC     AL,AH                 12C4  2
+ADC     AL,BL                 12C3  2
+ADC     AL,BH                 12C7  2
+ADC     AL,CL                 12C1  2
+ADC     AL,CH                 12C5  2
+ADC     AL,DL                 12C2  2
+ADC     AL,DH                 12C6  2
+ADC     AH,AL                 12E0  2
+ADC     AH,AH                 12E4  2
+ADC     AH,BL                 12E3  2
+ADC     AH,BH                 12E7  2
+ADC     AH,CL                 12E1  2
+ADC     AH,CH                 12E5  2
+ADC     AH,DL                 12E2  2
+ADC     AH,DH                 12E6  2
+ADC     BL,AL                 12D8  2
+ADC     BL,AH                 12DC  2
+ADC     BL,BL                 12DB  2
+ADC     BL,BH                 12DF  2
+ADC     BL,CL                 12D9  2
+ADC     BL,CH                 12DD  2
+ADC     BL,DL                 12DA  2
+ADC     BL,DH                 12DE  2
+ADC     BH,AL                 12F8  2
+ADC     BH,AH                 12FC  2
+ADC     BH,BL                 12FB  2
+ADC     BH,BH                 12FF  2
+ADC     BH,CL                 12F9  2
+ADC     BH,CH                 12FD  2
+ADC     BH,DL                 12FA  2
+ADC     BH,DH                 12FE  2
+ADC     CL,AL                 12C8  2
+ADC     CL,AH                 12CC  2
+ADC     CL,BL                 12CB  2
+ADC     CL,BH                 12CF  2
+ADC     CL,CL                 12C9  2
+ADC     CL,CH                 12CD  2
+ADC     CL,DL                 12CA  2
+ADC     CL,DH                 12CE  2
+ADC     CH,AL                 12E8  2
+ADC     CH,AH                 12EC  2
+ADC     CH,BL                 12EB  2
+ADC     CH,BH                 12EF  2
+ADC     CH,CL                 12E9  2
+ADC     CH,CH                 12ED  2
+ADC     CH,DL                 12EA  2
+ADC     CH,DH                 12EE  2
+ADC     DL,AL                 12D0  2
+ADC     DL,AH                 12D4  2
+ADC     DL,BL                 12D3  2
+ADC     DL,BH                 12D7  2
+ADC     DL,CL                 12D1  2
+ADC     DL,CH                 12D5  2
+ADC     DL,DL                 12D2  2
+ADC     DL,DH                 12D6  2
+ADC     DH,AL                 12F0  2
+ADC     DH,AH                 12F4  2
+ADC     DH,BL                 12F3  2
+ADC     DH,BH                 12F7  2
+ADC     DH,CL                 12F1  2
+ADC     DH,CH                 12F5  2
+ADC     DH,DL                 12F2  2
+ADC     DH,DH                 12F6  2
+ADC     AX,*                  15    3
+ADC     BX,*                  81D3  4
+ADC     CX,*                  81D1  4
+ADC     DX,*                  81D2  4
+ADC     AL,*                  14    2
+ADC     AH,*                  80D4  3
+ADC     BL,*                  80D3  3
+ADC     BH,*                  80D7  3
+ADC     CL,*                  80D1  3
+ADC     CH,*                  80D5  3
+ADC     DL,*                  80D2  3
+ADC     DH,*                  80D6  3
+
+INC     AX                    40    1
+INC     BX                    43    1
+INC     CX                    41    1
+INC     DX                    42    1
+INC     SP                    44    1
+INC     AL                    FEC0  2
+INC     AH                    FEC4  2
+INC     BL                    FEC3  2
+INC     BH                    FEC7  2
+INC     CL                    FEC1  2
+INC     CH                    FEC5  2
+INC     DL                    FEC2  2
+INC     DH                    FEC6  2
+
+SUB     AX,AX                 2BC0  2
+SUB     AX,BX                 2BC3  2
+SUB     AX,CX                 2BC1  2
+SUB     AX,DX                 2BC2  2
+SUB     BX,AX                 2BD8  2
+SUB     BX,BX                 2BDB  2
+SUB     BX,CX                 2BD9  2
+SUB     BX,DX                 2BDA  2
+SUB     CX,AX                 2BC8  2
+SUB     CX,BX                 2BCB  2
+SUB     CX,CX                 2BC9  2
+SUB     CX,DX                 2BCA  2
+SUB     DX,AX                 2BD0  2
+SUB     DX,BX                 2BD3  2
+SUB     DX,CX                 2BD1  2
+SUB     DX,DX                 2BD2  2
+SUB     AL,AL                 2AC0  2
+SUB     AL,AH                 2AC4  2
+SUB     AL,BL                 2AC3  2
+SUB     AL,BH                 2AC7  2
+SUB     AL,CL                 2AC1  2
+SUB     AL,CH                 2AC5  2
+SUB     AL,DL                 2AC2  2
+SUB     AL,DH                 2AC6  2
+SUB     AH,AL                 2AE0  2
+SUB     AH,AH                 2AE4  2
+SUB     AH,BL                 2AE3  2
+SUB     AH,BH                 2AE7  2
+SUB     AH,CL                 2AE1  2
+SUB     AH,CH                 2AE5  2
+SUB     AH,DL                 2AE2  2
+SUB     AH,DH                 2AE6  2
+SUB     BL,AL                 2AD8  2
+SUB     BL,AH                 2ADC  2
+SUB     BL,BL                 2ADB  2
+SUB     BL,BH                 2ADF  2
+SUB     BL,CL                 2AD9  2
+SUB     BL,CH                 2ADD  2
+SUB     BL,DL                 2ADA  2
+SUB     BL,DH                 2ADE  2
+SUB     BH,AL                 2AF8  2
+SUB     BH,AH                 2AFC  2
+SUB     BH,BL                 2AFB  2
+SUB     BH,BH                 2AFF  2
+SUB     BH,CL                 2AF9  2
+SUB     BH,CH                 2AFD  2
+SUB     BH,DL                 2AFA  2
+SUB     BH,DH                 2AFE  2
+SUB     CL,AL                 2AC8  2
+SUB     CL,AH                 2ACC  2
+SUB     CL,BL                 2ACB  2
+SUB     CL,BH                 2ACF  2
+SUB     CL,CL                 2AC9  2
+SUB     CL,CH                 2ACD  2
+SUB     CL,DL                 2ACA  2
+SUB     CL,DH                 2ACE  2
+SUB     CH,AL                 2AE8  2
+SUB     CH,AH                 2AEC  2
+SUB     CH,BL                 2AEB  2
+SUB     CH,BH                 2AEF  2
+SUB     CH,CL                 2AE9  2
+SUB     CH,CH                 2AED  2
+SUB     CH,DL                 2AEA  2
+SUB     CH,DH                 2AEE  2
+SUB     DL,AL                 2AD0  2
+SUB     DL,AH                 2AD4  2
+SUB     DL,BL                 2AD3  2
+SUB     DL,BH                 2AD7  2
+SUB     DL,CL                 2AD1  2
+SUB     DL,CH                 2AD5  2
+SUB     DL,DL                 2AD2  2
+SUB     DL,DH                 2AD6  2
+SUB     DH,AL                 2AF0  2
+SUB     DH,AH                 2AF4  2
+SUB     DH,BL                 2AF3  2
+SUB     DH,BH                 2AF7  2
+SUB     DH,CL                 2AF1  2
+SUB     DH,CH                 2AF5  2
+SUB     DH,DL                 2AF2  2
+SUB     DH,DH                 2AF6  2
+SUB     AX,*                  2D    3
+SUB     BX,*                  81EB  4
+SUB     CX,*                  81E9  4
+SUB     DX,*                  81EA  4
+SUB     AL,*                  2C    2
+SUB     AH,*                  80EC  3
+SUB     BL,*                  80EB  3
+SUB     BH,*                  80EF  3
+SUB     CL,*                  80E9  3
+SUB     CH,*                  80ED  3
+SUB     DL,*                  80EA  3
+SUB     DH,*                  80EE  3
+
+SBB     AX,AX                 1BC0  2
+SBB     AX,BX                 1BC3  2
+SBB     AX,CX                 1BC1  2
+SBB     AX,DX                 1BC2  2
+SBB     BX,AX                 1BD8  2
+SBB     BX,BX                 1BDB  2
+SBB     BX,CX                 1BD9  2
+SBB     BX,DX                 1BDA  2
+SBB     CX,AX                 1BC8  2
+SBB     CX,BX                 1BCB  2
+SBB     CX,CX                 1BC9  2
+SBB     CX,DX                 1BCA  2
+SBB     DX,AX                 1BD0  2
+SBB     DX,BX                 1BD3  2
+SBB     DX,CX                 1BD1  2
+SBB     DX,DX                 1BD2  2
+SBB     AL,AL                 1AC0  2
+SBB     AL,AH                 1AC4  2
+SBB     AL,BL                 1AC3  2
+SBB     AL,BH                 1AC7  2
+SBB     AL,CL                 1AC1  2
+SBB     AL,CH                 1AC5  2
+SBB     AL,DL                 1AC2  2
+SBB     AL,DH                 1AC6  2
+SBB     AH,AL                 1AE0  2
+SBB     AH,AH                 1AE4  2
+SBB     AH,BL                 1AE3  2
+SBB     AH,BH                 1AE7  2
+SBB     AH,CL                 1AE1  2
+SBB     AH,CH                 1AE5  2
+SBB     AH,DL                 1AE2  2
+SBB     AH,DH                 1AE6  2
+SBB     BL,AL                 1AD8  2
+SBB     BL,AH                 1ADC  2
+SBB     BL,BL                 1ADB  2
+SBB     BL,BH                 1ADF  2
+SBB     BL,CL                 1AD9  2
+SBB     BL,CH                 1ADD  2
+SBB     BL,DL                 1ADA  2
+SBB     BL,DH                 1ADE  2
+SBB     BH,AL                 1AF8  2
+SBB     BH,AH                 1AFC  2
+SBB     BH,BL                 1AFB  2
+SBB     BH,BH                 1AFF  2
+SBB     BH,CL                 1AF9  2
+SBB     BH,CH                 1AFD  2
+SBB     BH,DL                 1AFA  2
+SBB     BH,DH                 1AFE  2
+SBB     CL,AL                 1AC8  2
+SBB     CL,AH                 1ACC  2
+SBB     CL,BL                 1ACB  2
+SBB     CL,BH                 1ACF  2
+SBB     CL,CL                 1AC9  2
+SBB     CL,CH                 1ACD  2
+SBB     CL,DL                 1ACA  2
+SBB     CL,DH                 1ACE  2
+SBB     CH,AL                 1AE8  2
+SBB     CH,AH                 1AEC  2
+SBB     CH,BL                 1AEB  2
+SBB     CH,BH                 1AEF  2
+SBB     CH,CL                 1AE9  2
+SBB     CH,CH                 1AED  2
+SBB     CH,DL                 1AEA  2
+SBB     CH,DH                 1AEE  2
+SBB     DL,AL                 1AD0  2
+SBB     DL,AH                 1AD4  2
+SBB     DL,BL                 1AD3  2
+SBB     DL,BH                 1AD7  2
+SBB     DL,CL                 1AD1  2
+SBB     DL,CH                 1AD5  2
+SBB     DL,DL                 1AD2  2
+SBB     DL,DH                 1AD6  2
+SBB     DH,AL                 1AF0  2
+SBB     DH,AH                 1AF4  2
+SBB     DH,BL                 1AF3  2
+SBB     DH,BH                 1AF7  2
+SBB     DH,CL                 1AF1  2
+SBB     DH,CH                 1AF5  2
+SBB     DH,DL                 1AF2  2
+SBB     DH,DH                 1AF6  2
+SBB     AX,*                  1D    3
+SBB     BX,*                  81DB  4
+SBB     CX,*                  81D9  4
+SBB     DX,*                  81DA  4
+SBB     AL,*                  1C    2
+SBB     AH,*                  80DC  3
+SBB     BL,*                  80DB  3
+SBB     BH,*                  80DF  3
+SBB     CL,*                  80D9  3
+SBB     CH,*                  80DD  3
+SBB     DL,*                  80DA  3
+SBB     DH,*                  80DE  3
+
+DEC     AX                    48    1
+DEC     BX                    4B    1
+DEC     CX                    49    1
+DEC     DX                    4A    1
+DEC     SP                    4C    1
+DEC     AL                    FEC8  2
+DEC     AH                    FECC  2
+DEC     BL                    FECB  2
+DEC     BH                    FECF  2
+DEC     CL                    FEC9  2
+DEC     CH                    FECD  2
+DEC     DL                    FECA  2
+DEC     DH                    FECE  2
+
+CMP     AX,AX                 3BC0  2
+CMP     AX,BX                 3BC3  2
+CMP     AX,CX                 3BC1  2
+CMP     AX,DX                 3BC2  2
+CMP     AX,SP                 3BC4  2
+CMP     BX,AX                 3BD8  2
+CMP     BX,BX                 3BDB  2
+CMP     BX,CX                 3BD9  2
+CMP     BX,DX                 3BDA  2
+CMP     BX,SP                 3BDC  2
+CMP     CX,AX                 3BC8  2
+CMP     CX,BX                 3BCB  2
+CMP     CX,CX                 3BC9  2
+CMP     CX,DX                 3BCA  2
+CMP     CX,SP                 3BCC  2
+CMP     DX,AX                 3BD0  2
+CMP     DX,BX                 3BD3  2
+CMP     DX,CX                 3BD1  2
+CMP     DX,DX                 3BD2  2
+CMP     DX,SP                 3BD4  2
+CMP     SP,AX                 3BE0  2
+CMP     SP,BX                 3BE3  2
+CMP     SP,CX                 3BE1  2
+CMP     SP,DX                 3BE2  2
+CMP     SP,SP                 3BE4  2
+CMP     AL,AL                 3AC0  2
+CMP     AL,AH                 3AC4  2
+CMP     AL,BL                 3AC3  2
+CMP     AL,BH                 3AC7  2
+CMP     AL,CL                 3AC1  2
+CMP     AL,CH                 3AC5  2
+CMP     AL,DL                 3AC2  2
+CMP     AL,DH                 3AC6  2
+CMP     AH,AL                 3AE0  2
+CMP     AH,AH                 3AE4  2
+CMP     AH,BL                 3AE3  2
+CMP     AH,BH                 3AE7  2
+CMP     AH,CL                 3AE1  2
+CMP     AH,CH                 3AE5  2
+CMP     AH,DL                 3AE2  2
+CMP     AH,DH                 3AE6  2
+CMP     BL,AL                 3AD8  2
+CMP     BL,AH                 3ADC  2
+CMP     BL,BL                 3ADB  2
+CMP     BL,BH                 3ADF  2
+CMP     BL,CL                 3AD9  2
+CMP     BL,CH                 3ADD  2
+CMP     BL,DL                 3ADA  2
+CMP     BL,DH                 3ADE  2
+CMP     BH,AL                 3AF8  2
+CMP     BH,AH                 3AFC  2
+CMP     BH,BL                 3AFB  2
+CMP     BH,BH                 3AFF  2
+CMP     BH,CL                 3AF9  2
+CMP     BH,CH                 3AFD  2
+CMP     BH,DL                 3AFA  2
+CMP     BH,DH                 3AFE  2
+CMP     CL,AL                 3AC8  2
+CMP     CL,AH                 3ACC  2
+CMP     CL,BL                 3ACB  2
+CMP     CL,BH                 3ACF  2
+CMP     CL,CL                 3AC9  2
+CMP     CL,CH                 3ACD  2
+CMP     CL,DL                 3ACA  2
+CMP     CL,DH                 3ACE  2
+CMP     CH,AL                 3AE8  2
+CMP     CH,AH                 3AEC  2
+CMP     CH,BL                 3AEB  2
+CMP     CH,BH                 3AEF  2
+CMP     CH,CL                 3AE9  2
+CMP     CH,CH                 3AED  2
+CMP     CH,DL                 3AEA  2
+CMP     CH,DH                 3AEE  2
+CMP     DL,AL                 3AD0  2
+CMP     DL,AH                 3AD4  2
+CMP     DL,BL                 3AD3  2
+CMP     DL,BH                 3AD7  2
+CMP     DL,CL                 3AD1  2
+CMP     DL,CH                 3AD5  2
+CMP     DL,DL                 3AD2  2
+CMP     DL,DH                 3AD6  2
+CMP     DH,AL                 3AF0  2
+CMP     DH,AH                 3AF4  2
+CMP     DH,BL                 3AF3  2
+CMP     DH,BH                 3AF7  2
+CMP     DH,CL                 3AF1  2
+CMP     DH,CH                 3AF5  2
+CMP     DH,DL                 3AF2  2
+CMP     DH,DH                 3AF6  2
+CMP     AX,*                  3D    3
+CMP     BX,*                  81FB  4
+CMP     CX,*                  81F9  4
+CMP     DX,*                  81FA  4
+CMP     SP,*                  81FC  4
+CMP     AL,*                  3C    2
+CMP     AH,*                  80FC  3
+CMP     BL,*                  80FB  3
+CMP     BH,*                  80FF  3
+CMP     CL,*                  80F9  3
+CMP     CH,*                  80FD  3
+CMP     DL,*                  80FA  3
+CMP     DH,*                  80FE  3
+
+TEST    AX,AX                 85C0  2
+TEST    BX,AX                 85C3  2
+TEST    CX,AX                 85C1  2
+TEST    DX,AX                 85C2  2
+TEST    SP,AX                 85C4  2
+TEST    AX,BX                 85D8  2
+TEST    BX,BX                 85DB  2
+TEST    CX,BX                 85D9  2
+TEST    DX,BX                 85DA  2
+TEST    SP,BX                 85DC  2
+TEST    AX,CX                 85C8  2
+TEST    BX,CX                 85CB  2
+TEST    CX,CX                 85C9  2
+TEST    DX,CX                 85CA  2
+TEST    SP,CX                 85CC  2
+TEST    AX,DX                 85D0  2
+TEST    BX,DX                 85D3  2
+TEST    CX,DX                 85D1  2
+TEST    DX,DX                 85D2  2
+TEST    SP,DX                 85D4  2
+TEST    AX,SP                 85E0  2
+TEST    BX,SP                 85E3  2
+TEST    CX,SP                 85E1  2
+TEST    DX,SP                 85E2  2
+TEST    SP,SP                 85E4  2
+TEST    AL,AL                 84C0  2
+TEST    AH,AL                 84C4  2
+TEST    BL,AL                 84C3  2
+TEST    BH,AL                 84C7  2
+TEST    CL,AL                 84C1  2
+TEST    CH,AL                 84C5  2
+TEST    DL,AL                 84C2  2
+TEST    DH,AL                 84C6  2
+TEST    AL,AH                 84E0  2
+TEST    AH,AH                 84E4  2
+TEST    BL,AH                 84E3  2
+TEST    BH,AH                 84E7  2
+TEST    CL,AH                 84E1  2
+TEST    CH,AH                 84E5  2
+TEST    DL,AH                 84E2  2
+TEST    DH,AH                 84E6  2
+TEST    AL,BL                 84D8  2
+TEST    AH,BL                 84DC  2
+TEST    BL,BL                 84DB  2
+TEST    BH,BL                 84DF  2
+TEST    CL,BL                 84D9  2
+TEST    CH,BL                 84DD  2
+TEST    DL,BL                 84DA  2
+TEST    DH,BL                 84DE  2
+TEST    AL,BH                 84F8  2
+TEST    AH,BH                 84FC  2
+TEST    BL,BH                 84FB  2
+TEST    BH,BH                 84FF  2
+TEST    CL,BH                 84F9  2
+TEST    CH,BH                 84FD  2
+TEST    DL,BH                 84FA  2
+TEST    DH,BH                 84FE  2
+TEST    AL,CL                 84C8  2
+TEST    AH,CL                 84CC  2
+TEST    BL,CL                 84CB  2
+TEST    BH,CL                 84CF  2
+TEST    CL,CL                 84C9  2
+TEST    CH,CL                 84CD  2
+TEST    DL,CL                 84CA  2
+TEST    DH,CL                 84CE  2
+TEST    AL,CH                 84E8  2
+TEST    AH,CH                 84EC  2
+TEST    BL,CH                 84EB  2
+TEST    BH,CH                 84EF  2
+TEST    CL,CH                 84E9  2
+TEST    CH,CH                 84ED  2
+TEST    DL,CH                 84EA  2
+TEST    DH,CH                 84EE  2
+TEST    AL,DL                 84D0  2
+TEST    AH,DL                 84D4  2
+TEST    BL,DL                 84D3  2
+TEST    BH,DL                 84D7  2
+TEST    CL,DL                 84D1  2
+TEST    CH,DL                 84D5  2
+TEST    DL,DL                 84D2  2
+TEST    DH,DL                 84D6  2
+TEST    AL,DH                 84F0  2
+TEST    AH,DH                 84F4  2
+TEST    BL,DH                 84F3  2
+TEST    BH,DH                 84F7  2
+TEST    CL,DH                 84F1  2
+TEST    CH,DH                 84F5  2
+TEST    DL,DH                 84F2  2
+TEST    DH,DH                 84F6  2
+TEST    AX,*                  A9    3
+TEST    BX,*                  F7C3  4
+TEST    CX,*                  F7C1  4
+TEST    DX,*                  F7C2  4
+TEST    SP,*                  F7C4  4
+TEST    AL,*                  A8    2
+TEST    AH,*                  F6C4  3
+TEST    BL,*                  F6C3  3
+TEST    BH,*                  F6C7  3
+TEST    CL,*                  F6C1  3
+TEST    CH,*                  F6C5  3
+TEST    DL,*                  F6C2  3
+TEST    DH,*                  F6C6  3
+
+AND     AX,AX                 23C0  2
+AND     AX,BX                 23C3  2
+AND     AX,CX                 23C1  2
+AND     AX,DX                 23C2  2
+AND     BX,AX                 23D8  2
+AND     BX,BX                 23DB  2
+AND     BX,CX                 23D9  2
+AND     BX,DX                 23DA  2
+AND     CX,AX                 23C8  2
+AND     CX,BX                 23CB  2
+AND     CX,CX                 23C9  2
+AND     CX,DX                 23CA  2
+AND     DX,AX                 23D0  2
+AND     DX,BX                 23D3  2
+AND     DX,CX                 23D1  2
+AND     DX,DX                 23D2  2
+AND     AL,AL                 22C0  2
+AND     AL,AH                 22C4  2
+AND     AL,BL                 22C3  2
+AND     AL,BH                 22C7  2
+AND     AL,CL                 22C1  2
+AND     AL,CH                 22C5  2
+AND     AL,DL                 22C2  2
+AND     AL,DH                 22C6  2
+AND     AH,AL                 22E0  2
+AND     AH,AH                 22E4  2
+AND     AH,BL                 22E3  2
+AND     AH,BH                 22E7  2
+AND     AH,CL                 22E1  2
+AND     AH,CH                 22E5  2
+AND     AH,DL                 22E2  2
+AND     AH,DH                 22E6  2
+AND     BL,AL                 22D8  2
+AND     BL,AH                 22DC  2
+AND     BL,BL                 22DB  2
+AND     BL,BH                 22DF  2
+AND     BL,CL                 22D9  2
+AND     BL,CH                 22DD  2
+AND     BL,DL                 22DA  2
+AND     BL,DH                 22DE  2
+AND     BH,AL                 22F8  2
+AND     BH,AH                 22FC  2
+AND     BH,BL                 22FB  2
+AND     BH,BH                 22FF  2
+AND     BH,CL                 22F9  2
+AND     BH,CH                 22FD  2
+AND     BH,DL                 22FA  2
+AND     BH,DH                 22FE  2
+AND     CL,AL                 22C8  2
+AND     CL,AH                 22CC  2
+AND     CL,BL                 22CB  2
+AND     CL,BH                 22CF  2
+AND     CL,CL                 22C9  2
+AND     CL,CH                 22CD  2
+AND     CL,DL                 22CA  2
+AND     CL,DH                 22CE  2
+AND     CH,AL                 22E8  2
+AND     CH,AH                 22EC  2
+AND     CH,BL                 22EB  2
+AND     CH,BH                 22EF  2
+AND     CH,CL                 22E9  2
+AND     CH,CH                 22ED  2
+AND     CH,DL                 22EA  2
+AND     CH,DH                 22EE  2
+AND     DL,AL                 22D0  2
+AND     DL,AH                 22D4  2
+AND     DL,BL                 22D3  2
+AND     DL,BH                 22D7  2
+AND     DL,CL                 22D1  2
+AND     DL,CH                 22D5  2
+AND     DL,DL                 22D2  2
+AND     DL,DH                 22D6  2
+AND     DH,AL                 22F0  2
+AND     DH,AH                 22F4  2
+AND     DH,BL                 22F3  2
+AND     DH,BH                 22F7  2
+AND     DH,CL                 22F1  2
+AND     DH,CH                 22F5  2
+AND     DH,DL                 22F2  2
+AND     DH,DH                 22F6  2
+AND     AX,*                  25    3
+AND     BX,*                  81E3  4
+AND     CX,*                  81E1  4
+AND     DX,*                  81E2  4
+AND     SP,*                  81E4  4
+AND     AL,*                  24    2
+AND     AH,*                  80E4  3
+AND     BL,*                  80E3  3
+AND     BH,*                  80E7  3
+AND     CL,*                  80E1  3
+AND     CH,*                  80E5  3
+AND     DL,*                  80E2  3
+AND     DH,*                  80E6  3
+
+OR      AX,AX                 0BC0  2
+OR      AX,BX                 0BC3  2
+OR      AX,CX                 0BC1  2
+OR      AX,DX                 0BC2  2
+OR      AX,SP                 0BC4  2
+OR      BX,AX                 0BD8  2
+OR      BX,BX                 0BDB  2
+OR      BX,CX                 0BD9  2
+OR      BX,DX                 0BDA  2
+OR      BX,SP                 0BDC  2
+OR      CX,AX                 0BC8  2
+OR      CX,BX                 0BCB  2
+OR      CX,CX                 0BC9  2
+OR      CX,DX                 0BCA  2
+OR      CX,SP                 0BCC  2
+OR      DX,AX                 0BD0  2
+OR      DX,BX                 0BD3  2
+OR      DX,CX                 0BD1  2
+OR      DX,DX                 0BD2  2
+OR      DX,SP                 0BD4  2
+OR      SP,AX                 0BE0  2
+OR      SP,BX                 0BE3  2
+OR      SP,CX                 0BE1  2
+OR      SP,DX                 0BE2  2
+OR      SP,SP                 0BE4  2
+OR      AL,AL                 0AC0  2
+OR      AL,AH                 0AC4  2
+OR      AL,BL                 0AC3  2
+OR      AL,BH                 0AC7  2
+OR      AL,CL                 0AC1  2
+OR      AL,CH                 0AC5  2
+OR      AL,DL                 0AC2  2
+OR      AL,DH                 0AC6  2
+OR      AH,AL                 0AE0  2
+OR      AH,AH                 0AE4  2
+OR      AH,BL                 0AE3  2
+OR      AH,BH                 0AE7  2
+OR      AH,CL                 0AE1  2
+OR      AH,CH                 0AE5  2
+OR      AH,DL                 0AE2  2
+OR      AH,DH                 0AE6  2
+OR      BL,AL                 0AD8  2
+OR      BL,AH                 0ADC  2
+OR      BL,BL                 0ADB  2
+OR      BL,BH                 0ADF  2
+OR      BL,CL                 0AD9  2
+OR      BL,CH                 0ADD  2
+OR      BL,DL                 0ADA  2
+OR      BL,DH                 0ADE  2
+OR      BH,AL                 0AF8  2
+OR      BH,AH                 0AFC  2
+OR      BH,BL                 0AFB  2
+OR      BH,BH                 0AFF  2
+OR      BH,CL                 0AF9  2
+OR      BH,CH                 0AFD  2
+OR      BH,DL                 0AFA  2
+OR      BH,DH                 0AFE  2
+OR      CL,AL                 0AC8  2
+OR      CL,AH                 0ACC  2
+OR      CL,BL                 0ACB  2
+OR      CL,BH                 0ACF  2
+OR      CL,CL                 0AC9  2
+OR      CL,CH                 0ACD  2
+OR      CL,DL                 0ACA  2
+OR      CL,DH                 0ACE  2
+OR      CH,AL                 0AE8  2
+OR      CH,AH                 0AEC  2
+OR      CH,BL                 0AEB  2
+OR      CH,BH                 0AEF  2
+OR      CH,CL                 0AE9  2
+OR      CH,CH                 0AED  2
+OR      CH,DL                 0AEA  2
+OR      CH,DH                 0AEE  2
+OR      DL,AL                 0AD0  2
+OR      DL,AH                 0AD4  2
+OR      DL,BL                 0AD3  2
+OR      DL,BH                 0AD7  2
+OR      DL,CL                 0AD1  2
+OR      DL,CH                 0AD5  2
+OR      DL,DL                 0AD2  2
+OR      DL,DH                 0AD6  2
+OR      DH,AL                 0AF0  2
+OR      DH,AH                 0AF4  2
+OR      DH,BL                 0AF3  2
+OR      DH,BH                 0AF7  2
+OR      DH,CL                 0AF1  2
+OR      DH,CH                 0AF5  2
+OR      DH,DL                 0AF2  2
+OR      DH,DH                 0AF6  2
+OR      AX,*                  0D    3
+OR      BX,*                  81CB  4
+OR      CX,*                  81C9  4
+OR      DX,*                  81CA  4
+OR      SP,*                  81CC  4
+OR      BP,*                  81CD  4
+OR      DI,*                  81CF  4
+OR      SI,*                  81CE  4
+OR      AL,*                  0C    2
+OR      AH,*                  80CC  3
+OR      BL,*                  80CB  3
+OR      BH,*                  80CF  3
+OR      CL,*                  80C9  3
+OR      CH,*                  80CD  3
+OR      DL,*                  80CA  3
+OR      DH,*                  80CE  3
+
+NOT     AX                    F7D0  2
+NOT     BX                    F7D3  2
+NOT     CX                    F7D1  2
+NOT     DX                    F7D2  2
+NOT     AL                    F6D0  2
+NOT     AH                    F6D4  2
+NOT     BL                    F6D3  2
+NOT     BH                    F6D7  2
+NOT     CL                    F6D1  2
+NOT     CH                    F6D5  2
+NOT     DL                    F6D2  2
+NOT     DH                    F6D6  2
+
+XOR     AX,AX                 33C0  2
+XOR     AX,BX                 33C3  2
+XOR     AX,CX                 33C1  2
+XOR     AX,DX                 33C2  2
+XOR     BX,AX                 33D8  2
+XOR     BX,BX                 33DB  2
+XOR     BX,CX                 33D9  2
+XOR     BX,DX                 33DA  2
+XOR     CX,AX                 33C8  2
+XOR     CX,BX                 33CB  2
+XOR     CX,CX                 33C9  2
+XOR     CX,DX                 33CA  2
+XOR     DX,AX                 33D0  2
+XOR     DX,BX                 33D3  2
+XOR     DX,CX                 33D1  2
+XOR     DX,DX                 33D2  2
+XOR     AL,AL                 32C0  2
+XOR     AL,AH                 32C4  2
+XOR     AL,BL                 32C3  2
+XOR     AL,BH                 32C7  2
+XOR     AL,CL                 32C1  2
+XOR     AL,CH                 32C5  2
+XOR     AL,DL                 32C2  2
+XOR     AL,DH                 32C6  2
+XOR     AH,AL                 32E0  2
+XOR     AH,AH                 32E4  2
+XOR     AH,BL                 32E3  2
+XOR     AH,BH                 32E7  2
+XOR     AH,CL                 32E1  2
+XOR     AH,CH                 32E5  2
+XOR     AH,DL                 32E2  2
+XOR     AH,DH                 32E6  2
+XOR     BL,AL                 32D8  2
+XOR     BL,AH                 32DC  2
+XOR     BL,BL                 32DB  2
+XOR     BL,BH                 32DF  2
+XOR     BL,CL                 32D9  2
+XOR     BL,CH                 32DD  2
+XOR     BL,DL                 32DA  2
+XOR     BL,DH                 32DE  2
+XOR     BH,AL                 32F8  2
+XOR     BH,AH                 32FC  2
+XOR     BH,BL                 32FB  2
+XOR     BH,BH                 32FF  2
+XOR     BH,CL                 32F9  2
+XOR     BH,CH                 32FD  2
+XOR     BH,DL                 32FA  2
+XOR     BH,DH                 32FE  2
+XOR     CL,AL                 32C8  2
+XOR     CL,AH                 32CC  2
+XOR     CL,BL                 32CB  2
+XOR     CL,BH                 32CF  2
+XOR     CL,CL                 32C9  2
+XOR     CL,CH                 32CD  2
+XOR     CL,DL                 32CA  2
+XOR     CL,DH                 32CE  2
+XOR     CH,AL                 32E8  2
+XOR     CH,AH                 32EC  2
+XOR     CH,BL                 32EB  2
+XOR     CH,BH                 32EF  2
+XOR     CH,CL                 32E9  2
+XOR     CH,CH                 32ED  2
+XOR     CH,DL                 32EA  2
+XOR     CH,DH                 32EE  2
+XOR     DL,AL                 32D0  2
+XOR     DL,AH                 32D4  2
+XOR     DL,BL                 32D3  2
+XOR     DL,BH                 32D7  2
+XOR     DL,CL                 32D1  2
+XOR     DL,CH                 32D5  2
+XOR     DL,DL                 32D2  2
+XOR     DL,DH                 32D6  2
+XOR     DH,AL                 32F0  2
+XOR     DH,AH                 32F4  2
+XOR     DH,BL                 32F3  2
+XOR     DH,BH                 32F7  2
+XOR     DH,CL                 32F1  2
+XOR     DH,CH                 32F5  2
+XOR     DH,DL                 32F2  2
+XOR     DH,DH                 32F6  2
+XOR     AX,*                  35    3
+XOR     BX,*                  81F3  4
+XOR     CX,*                  81F1  4
+XOR     DX,*                  81F2  4
+XOR     SP,*                  81F4  4
+XOR     AL,*                  34    2
+XOR     AH,*                  80F4  3
+XOR     BL,*                  80F3  3
+XOR     BH,*                  80F7  3
+XOR     CL,*                  80F1  3
+XOR     CH,*                  80F5  3
+XOR     DL,*                  80F2  3
+XOR     DH,*                  80F6  3
+
+SHL     AX,1                  D1E0  2
+SHL     BX,1                  D1E3  2
+SHL     CX,1                  D1E1  2
+SHL     DX,1                  D1E2  2
+SHL     SP,1                  D1E4  2
+SHL     AL,1                  D0E0  2
+SHL     AH,1                  D0E4  2
+SHL     BL,1                  D0E3  2
+SHL     BH,1                  D0E7  2
+SHL     CL,1                  D0E1  2
+SHL     CH,1                  D0E5  2
+SHL     DL,1                  D0E2  2
+SHL     DH,1                  D0E6  2
+
+SHR     AX,1                  D1E8  2
+SHR     BX,1                  D1EB  2
+SHR     CX,1                  D1E9  2
+SHR     DX,1                  D1EA  2
+SHR     SP,1                  D1EC  2
+SHR     AL,1                  D0E8  2
+SHR     AH,1                  D0EC  2
+SHR     BL,1                  D0EB  2
+SHR     BH,1                  D0EF  2
+SHR     CL,1                  D0E9  2
+SHR     CH,1                  D0ED  2
+SHR     DL,1                  D0EA  2
+SHR     DH,1                  D0EE  2
+
+SAL     AX,1                  D1E0  2
+SAL     BX,1                  D1E3  2
+SAL     CX,1                  D1E1  2
+SAL     DX,1                  D1E2  2
+SAL     SP,1                  D1E4  2
+SAL     AL,1                  D0E0  2
+SAL     AH,1                  D0E4  2
+SAL     BL,1                  D0E3  2
+SAL     BH,1                  D0E7  2
+SAL     CL,1                  D0E1  2
+SAL     CH,1                  D0E5  2
+SAL     DL,1                  D0E2  2
+SAL     DH,1                  D0E6  2
+
+SAR     AX,1                  D1F8  2
+SAR     BX,1                  D1FB  2
+SAR     CX,1                  D1F9  2
+SAR     DX,1                  D1FA  2
+SAR     SP,1                  D1FC  2
+SAR     AL,1                  D0F8  2
+SAR     AH,1                  D0FC  2
+SAR     BL,1                  D0FB  2
+SAR     BH,1                  D0FF  2
+SAR     CL,1                  D0F9  2
+SAR     CH,1                  D0FD  2
+SAR     DL,1                  D0FA  2
+SAR     DH,1                  D0FE  2
+
+ROL     AX,1                  D1C0  2
+ROL     BX,1                  D1C3  2
+ROL     CX,1                  D1C1  2
+ROL     DX,1                  D1C2  2
+ROL     SP,1                  D1C4  2
+ROL     AL,1                  D0C0  2
+ROL     AH,1                  D0C4  2
+ROL     BL,1                  D0C3  2
+ROL     BH,1                  D0C7  2
+ROL     CL,1                  D0C1  2
+ROL     CH,1                  D0C5  2
+ROL     DL,1                  D0C2  2
+ROL     DH,1                  D0C6  2
+
+ROR     AX,1                  D1C8  2
+ROR     BX,1                  D1CB  2
+ROR     CX,1                  D1C9  2
+ROR     DX,1                  D1CA  2
+ROR     SP,1                  D1CC  2
+ROR     AL,1                  D0C8  2
+ROR     AH,1                  D0CC  2
+ROR     BL,1                  D0CB  2
+ROR     BH,1                  D0CF  2
+ROR     CL,1                  D0C9  2
+ROR     CH,1                  D0CD  2
+ROR     DL,1                  D0CA  2
+ROR     DH,1                  D0CE  2
+
+RCL     AX,1                  D1D0  2
+RCL     BX,1                  D1D3  2
+RCL     CX,1                  D1D1  2
+RCL     DX,1                  D1D2  2
+RCL     SP,1                  D1D4  2
+RCL     AL,1                  D0D0  2
+RCL     AH,1                  D0D4  2
+RCL     BL,1                  D0D3  2
+RCL     BH,1                  D0D7  2
+RCL     CL,1                  D0D1  2
+RCL     CH,1                  D0D5  2
+RCL     DL,1                  D0D2  2
+RCL     DH,1                  D0D6  2
+
+RCR     AX,1                  D1D8  2
+RCR     BX,1                  D1DB  2
+RCR     CX,1                  D1D9  2
+RCR     DX,1                  D1DA  2
+RCR     SP,1                  D1DC  2
+RCR     AL,1                  D0D8  2
+RCR     AH,1                  D0DC  2
+RCR     BL,1                  D0DB  2
+RCR     BH,1                  D0DF  2
+RCR     CL,1                  D0D9  2
+RCR     CH,1                  D0DD  2
+RCR     DL,1                  D0DA  2
+RCR     DH,1                  D0DE  2
+
+JZ      *                     74    2    R1
+JNZ     *                     75    2    R1
+JB      *                     72    2    R1
+JNB     *                     73    2    R1
+JC      *                     72    2    R1
+JNC     *                     73    2    R1
+JMP     *                     EB    2    R1
+LOOP    *                     E2    2    R1
+
+CALL    *                     E8    3    R2
+RET     ""                    C3    1
+IRET    ""                    CF    1
+
+CLC     ""                    F8    1
+CMC     ""                    F5    1
+STC     ""                    F9    1
+CLI     ""                    FA    1
+STI     ""                    FB    1
+NOP     ""                    90    1
+HLT     ""                    F4    1
+WAIT    ""                    9B    1
